@@ -226,13 +226,17 @@ main {
   }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 384px) {
+  .sidebar-center {
+    width: 85%;
+  }
+
   .links li a {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .social-icons li a {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
